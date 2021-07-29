@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.1.1
+-- version 5.0.2
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 29 Jul 2021 pada 15.59
--- Versi server: 10.4.20-MariaDB
--- Versi PHP: 8.0.8
+-- Waktu pembuatan: 29 Jul 2021 pada 18.23
+-- Versi server: 10.4.14-MariaDB
+-- Versi PHP: 7.4.9
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -67,7 +67,8 @@ CREATE TABLE `tuser` (
 --
 
 INSERT INTO `tuser` (`id_user`, `username`, `password`, `nama_pengguna`, `status`) VALUES
-(1, 'admin', '0192023a7bbd73250516f069df18b500', 'Administrator', 'Aktif');
+(1, 'admin', '0192023a7bbd73250516f069df18b500', 'Administrator', 'Aktif'),
+(2, 'admin', '21232f297a57a5a743894a0e4a801fc3', 'Administrator', 'Aktif');
 
 --
 -- Indexes for dumped tables
@@ -99,7 +100,7 @@ ALTER TABLE `ttamu`
 -- AUTO_INCREMENT untuk tabel `tuser`
 --
 ALTER TABLE `tuser`
-  MODIFY `id_user` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id_user` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
