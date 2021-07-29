@@ -175,7 +175,7 @@ if (isset($_POST['bsimpan'])) {
     </div>
     <div class="card-body">
         <a href="rekapitulasi.php" class="btn btn-success mb-3"><i class="fa fa-table mr-1"></i>Rekapitulasi Pengunjung</a>
-        <a href="rekapitulasi.php" class="btn btn-danger mb-3"><i class="fa fa-sign-out-alt mr-1"></i>Logout</a>
+        <a href="logout.php" class="btn btn-danger mb-3"><i class="fa fa-sign-out-alt mr-1"></i>Logout</a>
 
         <div class="table-responsive">
             <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">

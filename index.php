@@ -51,7 +51,7 @@
                                     </div>
                                     <form class="user" action="cek_login.php" method="POST">
                                         <div class="form-group">
-                                            <input type="text" class="form-control form-control-user" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Enter Your Username..." name="usernam">
+                                            <input type="text" class="form-control form-control-user" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Enter Your Username..." name="username">
                                         </div>
                                         <div class="form-group">
                                             <input type="password" class="form-control form-control-user" id="exampleInputPassword" placeholder="Password" name="password">
